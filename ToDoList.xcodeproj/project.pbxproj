@@ -7,28 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		038F9C712BBC843500A6555E /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038F9C702BBC843500A6555E /* AddTaskViewController.m */; };
+		038FC0732BBD408900B4EFED /* ShowTaskDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038FC0722BBD408900B4EFED /* ShowTaskDetailsViewController.m */; };
+		038FC0762BBD69FA00B4EFED /* InProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038FC0752BBD69FA00B4EFED /* InProgressViewController.m */; };
+		039032C12BBCF8FE00C3006F /* TaskPojo.m in Sources */ = {isa = PBXBuildFile; fileRef = 039032C02BBCF8FE00C3006F /* TaskPojo.m */; };
 		03CC88AD2BBBF11600DE002F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CC88AC2BBBF11600DE002F /* AppDelegate.m */; };
 		03CC88B02BBBF11600DE002F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CC88AF2BBBF11600DE002F /* SceneDelegate.m */; };
-		03CC88B32BBBF11600DE002F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CC88B22BBBF11600DE002F /* ViewController.m */; };
+		03CC88B32BBBF11600DE002F /* DoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CC88B22BBBF11600DE002F /* DoneViewController.m */; };
 		03CC88B62BBBF11600DE002F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CC88B42BBBF11600DE002F /* Main.storyboard */; };
 		03CC88B82BBBF11800DE002F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CC88B72BBBF11800DE002F /* Assets.xcassets */; };
 		03CC88BB2BBBF11800DE002F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CC88B92BBBF11800DE002F /* LaunchScreen.storyboard */; };
 		03CC88BE2BBBF11800DE002F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CC88BD2BBBF11800DE002F /* main.m */; };
+		03CC88C62BBC06A200DE002F /* ToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CC88C52BBC06A200DE002F /* ToDoViewController.m */; };
+		4BB054476C0BE30E37E64CA5 /* Pods_ToDoList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF85839247CC4DF4DEBAC9E /* Pods_ToDoList.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		038F9C6F2BBC843500A6555E /* AddTaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTaskViewController.h; sourceTree = "<group>"; };
+		038F9C702BBC843500A6555E /* AddTaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
+		038FC0712BBD408900B4EFED /* ShowTaskDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowTaskDetailsViewController.h; sourceTree = "<group>"; };
+		038FC0722BBD408900B4EFED /* ShowTaskDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowTaskDetailsViewController.m; sourceTree = "<group>"; };
+		038FC0742BBD69FA00B4EFED /* InProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InProgressViewController.h; sourceTree = "<group>"; };
+		038FC0752BBD69FA00B4EFED /* InProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InProgressViewController.m; sourceTree = "<group>"; };
+		039032BF2BBCF8FE00C3006F /* TaskPojo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskPojo.h; sourceTree = "<group>"; };
+		039032C02BBCF8FE00C3006F /* TaskPojo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskPojo.m; sourceTree = "<group>"; };
+		039032C22BBD07B800C3006F /* NavigationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationProtocol.h; sourceTree = "<group>"; };
 		03CC88A82BBBF11600DE002F /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03CC88AB2BBBF11600DE002F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03CC88AC2BBBF11600DE002F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		03CC88AE2BBBF11600DE002F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		03CC88AF2BBBF11600DE002F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		03CC88B12BBBF11600DE002F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		03CC88B22BBBF11600DE002F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03CC88B12BBBF11600DE002F /* DoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneViewController.h; sourceTree = "<group>"; };
+		03CC88B22BBBF11600DE002F /* DoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneViewController.m; sourceTree = "<group>"; };
 		03CC88B52BBBF11600DE002F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03CC88B72BBBF11800DE002F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03CC88BA2BBBF11800DE002F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03CC88BC2BBBF11800DE002F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03CC88BD2BBBF11800DE002F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03CC88C42BBC06A200DE002F /* ToDoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoViewController.h; sourceTree = "<group>"; };
+		03CC88C52BBC06A200DE002F /* ToDoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoViewController.m; sourceTree = "<group>"; };
+		6DF85839247CC4DF4DEBAC9E /* Pods_ToDoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C9EBF9DF72471F26F3BDDA /* Pods-ToDoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.debug.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.debug.xcconfig"; sourceTree = "<group>"; };
+		D9FD2F1EA1223D83131F756D /* Pods-ToDoList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.release.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB054476C0BE30E37E64CA5 /* Pods_ToDoList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +68,8 @@
 			children = (
 				03CC88AA2BBBF11600DE002F /* ToDoList */,
 				03CC88A92BBBF11600DE002F /* Products */,
+				AF3620AD178D8900A741D3EF /* Pods */,
+				D96EAEC3BC49AA18F9CFF008 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,15 +88,43 @@
 				03CC88AC2BBBF11600DE002F /* AppDelegate.m */,
 				03CC88AE2BBBF11600DE002F /* SceneDelegate.h */,
 				03CC88AF2BBBF11600DE002F /* SceneDelegate.m */,
-				03CC88B12BBBF11600DE002F /* ViewController.h */,
-				03CC88B22BBBF11600DE002F /* ViewController.m */,
+				03CC88B12BBBF11600DE002F /* DoneViewController.h */,
+				03CC88B22BBBF11600DE002F /* DoneViewController.m */,
 				03CC88B42BBBF11600DE002F /* Main.storyboard */,
 				03CC88B72BBBF11800DE002F /* Assets.xcassets */,
 				03CC88B92BBBF11800DE002F /* LaunchScreen.storyboard */,
 				03CC88BC2BBBF11800DE002F /* Info.plist */,
 				03CC88BD2BBBF11800DE002F /* main.m */,
+				03CC88C42BBC06A200DE002F /* ToDoViewController.h */,
+				03CC88C52BBC06A200DE002F /* ToDoViewController.m */,
+				038F9C6F2BBC843500A6555E /* AddTaskViewController.h */,
+				038F9C702BBC843500A6555E /* AddTaskViewController.m */,
+				039032BF2BBCF8FE00C3006F /* TaskPojo.h */,
+				039032C02BBCF8FE00C3006F /* TaskPojo.m */,
+				039032C22BBD07B800C3006F /* NavigationProtocol.h */,
+				038FC0712BBD408900B4EFED /* ShowTaskDetailsViewController.h */,
+				038FC0722BBD408900B4EFED /* ShowTaskDetailsViewController.m */,
+				038FC0742BBD69FA00B4EFED /* InProgressViewController.h */,
+				038FC0752BBD69FA00B4EFED /* InProgressViewController.m */,
 			);
 			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		AF3620AD178D8900A741D3EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88C9EBF9DF72471F26F3BDDA /* Pods-ToDoList.debug.xcconfig */,
+				D9FD2F1EA1223D83131F756D /* Pods-ToDoList.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D96EAEC3BC49AA18F9CFF008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DF85839247CC4DF4DEBAC9E /* Pods_ToDoList.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03CC88C12BBBF11800DE002F /* Build configuration list for PBXNativeTarget "ToDoList" */;
 			buildPhases = (
+				680DC0BFB5492F56B29026D5 /* [CP] Check Pods Manifest.lock */,
 				03CC88A42BBBF11600DE002F /* Sources */,
 				03CC88A52BBBF11600DE002F /* Frameworks */,
 				03CC88A62BBBF11600DE002F /* Resources */,
+				47B50F03FAE5BC61A16531E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,15 +194,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47B50F03FAE5BC61A16531E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoList/Pods-ToDoList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoList/Pods-ToDoList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToDoList/Pods-ToDoList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		680DC0BFB5492F56B29026D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDoList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03CC88A42BBBF11600DE002F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03CC88B32BBBF11600DE002F /* ViewController.m in Sources */,
+				03CC88B32BBBF11600DE002F /* DoneViewController.m in Sources */,
+				038F9C712BBC843500A6555E /* AddTaskViewController.m in Sources */,
 				03CC88AD2BBBF11600DE002F /* AppDelegate.m in Sources */,
+				038FC0732BBD408900B4EFED /* ShowTaskDetailsViewController.m in Sources */,
+				03CC88C62BBC06A200DE002F /* ToDoViewController.m in Sources */,
 				03CC88BE2BBBF11800DE002F /* main.m in Sources */,
 				03CC88B02BBBF11600DE002F /* SceneDelegate.m in Sources */,
+				039032C12BBCF8FE00C3006F /* TaskPojo.m in Sources */,
+				038FC0762BBD69FA00B4EFED /* InProgressViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +387,7 @@
 		};
 		03CC88C22BBBF11800DE002F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C9EBF9DF72471F26F3BDDA /* Pods-ToDoList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +400,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +415,7 @@
 		};
 		03CC88C32BBBF11800DE002F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9FD2F1EA1223D83131F756D /* Pods-ToDoList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +428,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
